@@ -16,8 +16,8 @@
                 </Paragraph>
             </FlowDocument>
         </RichTextBox>
-        <ComboBox x:Name="cmbFontFamily" HorizontalAlignment="Left" Margin="215,19,0,0" VerticalAlignment="Top" Width="120" Height="20"/>
-        <ComboBox x:Name="cmbFontSize" HorizontalAlignment="Left" Margin="350,19,0,0" VerticalAlignment="Top" Width="60" Height="20"/>
+        <ComboBox x:Name="cmbFontFamily" HorizontalAlignment="Left" Margin="215,20,0,0" VerticalAlignment="Top" Width="120" Height="20" SelectionChanged="cmbFontFamily_SelectionChanged"/>
+        <ComboBox x:Name="cmbFontSize" HorizontalAlignment="Left" Margin="350,20,0,0" VerticalAlignment="Top" Width="60" Height="20" SelectionChanged="cmbFontSize_SelectionChanged"/>
         <Button x:Name="btnBold" Content="B" HorizontalAlignment="Left" Margin="425,19,0,0" VerticalAlignment="Top" Height="20" Width="20" FontWeight="Bold"/>
         <Button x:Name="btnItalic" Content="Ⅰ" HorizontalAlignment="Left" Margin="460,19,0,0" VerticalAlignment="Top" Height="20" Width="20" FontStyle="Italic"/>
         <Button x:Name="btnUnderline" Content="U" HorizontalAlignment="Left" Margin="495,19,0,0" VerticalAlignment="Top" Height="20" Width="20" FontWeight="ExtraBlack"/>
